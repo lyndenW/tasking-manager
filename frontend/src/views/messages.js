@@ -681,4 +681,8 @@ export default defineMessages({
     id: 'pages.create_campaign.duplicate',
     defaultMessage: 'A campaign with the same name already exists',
   },
+  tutorial: {
+    id: 'pages.learn.tutorial',
+    defaultMessage: 'Tutorial',
+  },
 });

@@ -2,11 +2,11 @@ language: node_js
 node_js:
   - "12"
 before_install:
-  export TM_APP_API_URL='https://tasking-manager-staging-api.hotosm.org'
+  - export TM_APP_API_URL='https://tasking-manager-staging-api.hotosm.org'
 install:
-  export PATH=$PWD/frontend
-  cd PATH
-  npm install
+  - export PATH=$PWD/frontend
+  - cd PATH
+  - npm install
 script:
-  yarn start
+  - yarn start
 

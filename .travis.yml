@@ -4,8 +4,7 @@ node_js:
 before_install:
   - export TM_APP_API_URL='https://tasking-manager-staging-api.hotosm.org'
 install:
-  - export PATH=$PWD/frontend
-  - cd $PATH
+  - cd $PWD/frontend
   - npm install
 script:
   - yarn start

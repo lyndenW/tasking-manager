@@ -7,5 +7,5 @@ install:
   - cd $PWD/frontend
   - npm install
 script:
-  - yarn start
+  - yarn build
 
